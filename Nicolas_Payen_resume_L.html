@@ -4,63 +4,88 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume - Nicolas Payen</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
-            color: #333;
-            line-height: 1.6;
-        }
-        .container {
-            max-width: 800px;
-            margin: auto;
-        }
-        h1, h2, h3 {
-            color: #004080;
-            margin-bottom: 5px;
-        }
-        .section {
-            margin-bottom: 20px;
-        }
-        .contact, .skills, .languages {
-            font-size: 0.95em;
-        }
-        ul {
-            list-style-type: disc;
-            margin: 5px 0 15px 20px;
-        }
-        .job, .education-item {
-            margin-bottom: 10px;
-        }
-        .job h3, .education-item h3 {
-            font-size: 1em;
-            font-weight: bold;
-            margin: 5px 0;
-        }
-        .job h4, .education-item h4 {
-            font-size: 0.95em;
-            font-weight: bold;
-            color: #555;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <!-- Header -->
-        <header>
-            <h1>Nicolas Payen</h1>
-             <a href="https://www.linkedin.com/in/nicolaspayen" target="_blank" style="color: #004080; text-decoration: underline; font-weight: bold;">
-                linkedin.com/in/nicolaspayen
-            </a> | 
-            <a href="tel:+31621303848" style="color: #004080; text-decoration: underline; font-weight: bold;">
-                +31 6 21 30 38 48
-            </a> | 
-            <a href="mailto:nicolas_payen@icloud.com" style="color: #004080; text-decoration: underline; font-weight: bold;">
-                nicolas_payen@icloud.com
-            </a>
-            <p class="contact">Händellaan 15, 1411 JG Naarden, The Netherlands</p>
-        </header>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                font-size: 0.75em;
+                margin: 0px;
+                padding: 10px;
+                color: #333;
+                line-height: 1.2;
+            }
+            .container {
+                max-width: 800px;
+                margin: auto;
+            }
+            h1 + p, h1 + div, 
+            h2 + p, h2 + div, 
+            h3 + p, h3 + div,
+            h4 + p, h4 + div {
+                margin-top: 0px;
+            }
+            h1, h2, h3, h4 {
+                margin-bottom: 0px;
+                margin-top: 0px;
+                line-height: 1.2;
+            }
+            h1 {
+                margin-bottom: 2px;
+            }
+            h1, h2, h3 {
+                color: #004080;
+            }
+            .section {
+                margin-bottom: 5px;
+            }
+            .contact, .skills, .languages {
+                font-size: 1em;
+            }
+            ul {
+                list-style-type: disc;
+                margin: 5px 0 15px 20px;
+                margin-bottom: 2px;
+            }
+            h2 {
+               border-bottom: 2px solid #004080; /* Line color and thickness */
+               padding-bottom: 2px; /* Space between text and line */
+               display: block;
+               margin-bottom: 7px;
+            }
+            .job, .education-item {
+                margin-bottom: 10px;
+            }
+            .job h3, .education-item h3 {
+                font-size: 1em;
+                font-weight: bold;
+                margin: 0px 0;
+                line-height: 1.2;
+                margin-bottom: 2px;
+            }
+            .job h4, .education-item h4 {
+                font-size: 1em;
+                font-weight: bold;
+                color: #555;
+                line-height: 1.2;
+                margin-bottom: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <!-- Header -->
+            <header>
+                <h1>Nicolas Payen</h1>
+                 <a href="https://www.linkedin.com/in/nicolaspayen" target="_blank" style="color: #004080; text-decoration: underline; font-weight: bold; align-contents:left;">
+                    linkedin.com/in/nicolaspayen
+                </a> | 
+                <a href="tel:+31621303848" style="color: #004080; text-decoration: underline; font-weight: bold; align-contents:center;">
+                    +31 6 21 30 38 48
+                </a> | 
+                <a href="mailto:nicolas_payen@icloud.com" style="color: #004080; text-decoration: underline; font-weight: bold;align-contents:center;">
+                    nicolas_payen@icloud.com
+                </a>
+                <p class="contact" style="align-contents:left;">Händellaan 15, 1411 JG Naarden, The Netherlands</p>
+            </header>
 
         <!-- Summary -->
         <section class="section">
