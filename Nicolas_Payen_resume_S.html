@@ -20,185 +20,346 @@
     <meta name="twitter:description" content="Discover the professional journey of Nicolas Payen, from leadership roles at Schneider Electric to entrepreneurship in sustainable investing and climate tech.">
     <meta name="twitter:image" content="https://nicolaspayen1978.github.io/web_perso/images/Resumes.jpg">
     <title>Resume - Nicolas Payen</title>
-        <style>
-            body {
-                font-family: Arial, sans-serif;
-                font-size: 0.75em;
-                margin: 0px;
-                padding: 10px;
-                color: #333;
-                line-height: 1.2;
+   <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 0.75em;
+            margin: 0px;
+            padding: 10px;
+            color: #333;
+            line-height: 1.2;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+        h1, h2, h3, h4, h5 {
+            margin-bottom: 0px;
+            margin-top: 0px;
+            line-height: 1.2;
+        }
+        h1, h2, h3 {
+            color: #004080;
+        }
+
+        h5 {
+            font-size: 1.0em;
+        }
+
+        h3 em {
+            font-size: 0.9em;
+        }
+        .section {
+            margin-bottom: 5px;
+        }
+        h2 {
+           border-bottom: 2px solid #004080;
+           padding-bottom: 2px;
+           display: block;
+           margin-bottom: 7px;
+        }
+
+        .contact {
+            display:flex;
+            flex-basis: auto;
+        }
+
+        .contact-detail {
+            display:flex;
+            min-width: 25%;
+            text-align: center;
+        }
+
+        .job {
+            margin-bottom: 10px;
+            display: grid;
+            grid-template-columns: 150px auto;
+            column-gap: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .section ul li{
+            padding:2px;
+        }
+
+        .job-time {
+            width: 150px;
+            float: left;
+            color: #004080;
+            font-size: 1.1em;
+            font-weight: bold;
+            padding-bottom: 3px;
+            padding-top: 3px;
+        }
+
+        .job-location {
+            width: 150px;
+            float: left;
+            font-weight: bold;
+            padding-bottom: 3px;
+            padding-top: 3px;
+        }
+
+        .job-timelocation {
+            width: 150px;
+            float: left;
+            color: #808080;
+            padding-bottom: 3px;
+            padding-top: 3px;
+        }
+
+        .job-mission .job-results {
+            padding-bottom: 3px;
+            padding-top: 3px;
+        }
+
+        .job-results ul li{
+            padding: 0px;
+            padding-bottom: 2px;
+            padding-top: 2px;
+        }
+
+        .education-item {
+            margin-bottom: 5px;
+        }
+        a {
+            color: #004080;
+            text-decoration: none;
+        }
+        a:visited {
+            color: #004080;
+        }
+
+        @media screen and (max-width: 600px) {
+            header {
+                flex-direction: column;
+                align-items: flex-start;
+                text-align: left;
             }
-            .container {
-                max-width: 800px;
-                margin: auto;
+
+            header > div:last-child {
+                align-self: flex-end;
+                margin-top: 10px;
             }
-            h1 + p, h1 + div, 
-            h2 + p, h2 + div, 
-            h3 + p, h3 + div,
-            h4 + p, h4 + div {
-                margin-top: 0px;
+
+            .contact {
+                font-size: 0.85em;
             }
-            h1, h2, h3, h4 {
-                margin-bottom: 0px;
-                margin-top: 0px;
-                line-height: 1.2;
-            }
-            h1 {
-                margin-bottom: 5px;
-            }
-            h1, h2, h3 {
-                color: #004080;
-            }
-            .section {
-                margin-bottom: 5px;
-            }
-            .contact, .skills, .languages {
-                font-size: 1em;
-            }
-            ul {
-                list-style-type: disc;
-                margin: 5px 0 15px 20px;
-                margin-bottom: 2px;
-            }
-            h2 {
-               border-bottom: 2px solid #004080; /* Line color and thickness */
-               padding-bottom: 2px; /* Space between text and line */
-               display: block;
-               margin-bottom: 7px;
-            }
-            .job {
-                margin-bottom: 10px;
-            }
-            .education-item {
-                margin-bottom: 5px;
-            }
-            .job h3, .education-item h3 {
-                font-size: 1em;
-                font-weight: bold;
-                margin: 0px 0;
-                line-height: 1.2;
-                margin-bottom: 0px;
-            }
-            .education-item h3, .education-item h4 {
-                display: inline-block;
-                white-space: nowrap;
-            }
-            .job h4, .education-item h4 {
-                font-size: 1em;
-                font-weight: bold;
-                color: #555;
-                line-height: 1.2;
-                margin-bottom: 5px;
-            }
-            a {
-                color: #004080;
-                text-decoration: none;
-            }
-            a:visited {
-                color: #004080;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="container">
-            <!-- Header -->
-            <header>
-                <h1>Nicolas Payen</h1>
-                 <a href="https://www.linkedin.com/in/nicolaspayen" target="_blank" style="color: #004080; text-decoration: underline; font-weight: bold; align-contents:left;">
-                    <img src="https://cdn-icons-png.flaticon.com/16/174/174857.png" alt="LinkedIn" style="width: 14px; height: 14px; vertical-align: middle; margin-right: 5px;">
-                    linkedin.com/in/nicolaspayen
-                </a> | 
-                <a href="tel:+31621303848" style="color: #004080; text-decoration: underline; font-weight: bold; align-contents:center;">
-                    +31 6 21 30 38 48
-                </a> | 
-                <a href="mailto:nicolas_payen@icloud.com" style="color: #004080; text-decoration: underline; font-weight: bold;align-contents:center;">
-                    nicolas_payen@icloud.com
-                </a> |
-                <a href="https://web-perso.vercel.app">🌐 my website</a>
-            </header>
-        <!-- Summary -->
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; border-bottom: 2px solid #004080; padding-bottom: 10px; margin-bottom: 15px;">
+            <div style="flex: 1 1 60%;">
+                <h1 style="font-size: 2em; margin-bottom: 5px;">Nicolas Payen</h1>
+                <div class="contact" style="display: flex; flex-direction: column; gap: 5px; font-size: 0.9em;">
+                    <a href="https://www.linkedin.com/in/nicolaspayen" target="_blank" style="color: #004080; font-weight: bold;">
+                        <img src="https://cdn-icons-png.flaticon.com/16/174/174857.png" alt="LinkedIn" style="width: 14px; height: 14px; vertical-align: middle; margin-right: 5px;">
+                        linkedin.com/in/nicolaspayen
+                    </a>
+                    <a href="tel:+31621303848">📞 +31 6 21 30 38 48</a>
+                    <a href="mailto:nicolas_payen@icloud.com">✉️ nicolas_payen@icloud.com</a>
+                    <a href="https://web-perso.vercel.app">🌐 My Website</a>
+                    <p class="contact" style="align-contents:left;"><img src="https://cdn-icons-png.flaticon.com/16/684/684908.png" alt="Location" style="width: 14px; height: 14px; vertical-align: middle; margin-right: 5px;">
+                Händellaan 15, 1411 JG Naarden, The Netherlands
+                    </p>
+                </div>
+            </div>
+            <div style="flex: 0 0 100px; text-align: right;">
+                <img src="./images/NicolasPayen.jpg" alt="Nicolas Payen" style="width: 100px; border-radius: 8px; box-shadow: 0 0 5px rgba(0,0,0,0.1);">
+            </div>
+        </header>
         <section class="section">
             <h2>Summary</h2>
             <p>Dynamic international business leader with 20 years of experience driving strategy, innovation, and growth in the Energy and Digital Technology sectors. Expertise in business strategy, digital transformation, and sustainable finance, with a proven track record in investment, product development, and scaling businesses across Europe, Asia, and the Middle East. Seeking leadership roles in Business Management, Product Management, Strategy, Corporate VC, Innovation, or Digital/Business Transformation. Interested in joining an impact company driving the energy transition.
-            Past experiences in managing team of 80+ people, yearly investment budget up to €5Mln, and business activities up to €200Mln.</p>
+            Past experiences in managing team of 80+ people, and business activities up to €200Mln.</p>
         </section>
-
-        <!-- Work Experience -->
+        <section class="section">
+            <h2>Skills</h2>
+            <ul>
+                <li><strong>General Management & Business Growth</strong> – Full P&L responsibility, proven track record in scaling teams and driving growth across Europe and Asia.</li>
+                <li><strong>Commercial Strategy & Partnerships</strong> – Expertise in go-to-market execution, key account management, and regional expansion.</li>
+                <li><strong>Digital Transformation & IoT</strong> – Led the development of digital platforms and industrial IoT solutions.</li>
+                <li><strong>Entrepreneurship & Venture Building</strong> – Built startups and innovation studios, raised funds, designed and launched products.</li>
+                <li><strong>Sustainable Finance & Investments</strong> – Structured impact investment funds, analyzed and supported renewable energy project financing.</li>
+            </ul>
+        </section>
         <section class="section">
             <h2>Work Experience</h2>
+            <div class="job">
+                <div class="job-time">2017 - 2023 (5.5y)</div>
+                <div class="job-company"><h3><a href="https://positiveenergylimited.wpcomstaging.com"><img src="https://nicolaspayen1978.github.io/web_perso/images/PEL_square.png" alt="Positive Energy Ltd" target="_blank" align="left" style="width: 15px; height: 15px; vertical-align: middle; margin-right: 5px;">Positive Energy Ltd</a></h3></div>
 
-            <div class="job">
-                <h4>Positive Energy Ltd. <a href="https://www.icloud.com/iclouddrive/023BV-tdxngtSPc7SsH5UQf2w#PositiveEnergyLtd">[.]</a></h4>
-                <h3>Founder & CEO | Lead for GreenEU Fund Incubation | Mar 2017 - Oct 2023, Singapore & Amsterdam <a href="https://www.icloud.com/iclouddrive/0adPB2nLclmOoeIdL0kWwuM1Q#GreenEU_Fund">[.]</a></h3>
-                <ul>
-                    <li>Founded Positive Energy, developing a digital platform to finance clean energy projects; scaled operations across 36 countries.</li>
-                    <li>Recruited key employees (9 FTEs including co-founder), structured company governance, led product design and engineering</li>
-                    <li>Led marketing and sales activities,acquiring 750 companies, 2000+ users from 36 countries</li> 
-                    <li>$1.2B in potential project financing deals, 6 term sheets, secure 100k USD revenues under 12 months.</li>
-                    <li>Created the €178M GreenEU Fund concept to support SME-led projects in Europe, securing key milestones through investor outreach.</li>
-                </ul>
-            </div>
+                <div class="job-location">Singapore - Amsterdam</div>
+                <div class="job-position"><h5>Founder & CEO</h5></div>    
 
-            <div class="job">
-                <h4>MANN+HUMMEL <a href="https://www.mann-hummel.com">[.]</a></h4>
-                <h3>Global IoT / Industry 4.0 Lab Director | Mar 2016 - Mar 2017, Singapore</h3>
-                <ul>
-                    <li>Acted as CTO for software and electronics offers. Directed IoT and Industry 4.0 innovations within newly created lab, developing control solutions for filtration products.</li>
-                    <li>Led a team to develop digital services, including air quality and predictive maintenance solutions for industrial applications. €2Mln yearly budget. 5 FTEs.</li>
-                </ul>
-            </div>
+                <div class="job-timelocation">Mission</div>
+                <div class="job-mission">Build a Climate Fintech, operate B2B digital platform for renewable energy financing.</div>
 
-            <div class="job">
-                <h4>Schneider Electric <a href="https://www.se.com/">[.]</a></h4>
-                <h3>APAC & Middle East Channel Director | Apr 2013 - Oct 2015, Hong Kong</h3>
-                <ul>
-                    <li>Led channel strategies and operations for €200M business across APAC and the Middle East.</li>
-                    <li>Developed EcoExperts marketing program, enhancing channel sales efficiency and organized multi-specialty regional events. 8 FTEs.</li>
-                </ul>
+                <div class="job-timelocation">Results</div>
+                <div class="job-results">
+                    <ul>
+                        <li>Led product design, governance, and sales, growing platform to 750 companies.</li>
+                        <li>Drove $1.2B potential project financing, securing $100K revenue in 12 months.</li>
+                        <li>Structured partnerships for €175M GreenEU investment fund.</li>
+                        <li>Hired and managed 9 FTEs at peak</li>
+                    </ul>
+                </div>
             </div>
+            <div class="job">
+                <div class="job-time">2017 - 2023 (5.5y)</div>
+                <div class="job-company"><h3><a href="https://www.futureeconomystudio.com/"><img src="https://nicolaspayen1978.github.io/web_perso/images/FES.png" alt="Future Economy Studio" target="_blank" align="left" style="width: 25px; height: 15px; vertical-align: middle; margin-right: 5px;">Future Economy Studio</a></h3></div>
 
-            <div class="job">
-                <h3>ASIA Commercial Director | Apr 2013 - Oct 2015, Hong Kong</h3>
-                <ul>
-                    <li>Managed Asia’s EcoBuilding P&L (€25M), achieving a turnaround from -15% to +15% growth, with gross margins over 50%. 80 FTEs.</li>
-                    <li>Formed strategic partnerships with telecom companies to expand smart home and HVAC solutions in key Asian markets.</li>
-                </ul>
+                <div class="job-location">Singapore</div>
+                <div class="job-position"><h5>Founder & Managing Director</h5></div> 
+
+                <div class="job-timelocation">Mission</div>
+                <div class="job-mission">Launched a startup studio to create and scale digital ventures.</div>
+
+                <div class="job-timelocation">Results</div>
+                <div class="job-results">
+                    <ul>
+                        <li>Developed and tested four ventures across digital and industrial tech.</li>
+                        <li>Grew portfolio valuation to $4.5M by end of 2019.</li>
+                    </ul>
+                </div>
             </div>
             <div class="job">
-                <h3>Global Smart Home Project Director | Apr 2008 - Apr 2013, Paris, France</h3>
-                <ul>
-                    <li>Launched residential energy management system, led 20+ product dev. teams in Denmark & India with a €5M annual budget.</li>
-                    <li>Developed core infrastructure components, including the Zigbee Energy Box and M2M IT applications.</li>
-                    <li>Released the first Demand Side Management API for utilities and contributed to France’s Greenlys Smart Grid demonstrator.</li>
-                </ul>
+                <div class="job-time">2016 - 2017 (1y)</div>
+                <div class="job-company"><h3><a href="https://www.mann-hummel.com/"><img src="https://nicolaspayen1978.github.io/web_perso/images/MannHummel.png" alt="MANN+HHUMMEL" target="_blank" align="left" style="width: 15px; height: 15px; vertical-align: middle; margin-right: 5px;">MANN+HUMMEL</a></h3></div>
+
+                <div class="job-location">Singapore</div>
+                <div class="job-position"><h5>Global IoT / Industry 4.0 Lab Director</h5></div>    
+
+                <div class="job-timelocation">Mission</div>
+                <div class="job-mission">Created and Directed global IoT strategy and innovation lab for the group.<br>Kick-off and deploy digital transformation initiatives for the group.</div>
+
+                <div class="job-timelocation">Results</div>
+                <div class="job-results">
+                    <ul>
+                         <li>Developed IoT-enabled filtration monitoring solutions, targeting $5M revenue.</li>
+                        <li>Launched new digital services, integrating Industry 4.0 applications.</li>
+                        <li>Hired/managed Direct 5.</li>
+                    </ul>
+                </div>
             </div>
-            <div class="job">
-                <h3>Product Manager | Apr 2006 - Mar 2008, Nyköping, Sweden</h3>
-            </div>
-            <div class="job">
-                <h3>Deputy Manager Marketing | Jul 2005 - Jan 2006, Grenoble, France</h3>
-            </div>
-            <div class="job">
-                <h4>Silicomp AQL / Orange Business Services  <a href="https://www.orange-business.com/en">[.]</a></h4>
-                <h3>Technical Project Manager | Jul 2002 - July 2004, Lyon, France</h3>
+             <div class="job">
+
+                    <div class="job-time">2006 - 2015 (10y)</div>
+                    <div class="job-company"><h3><a href="https://www.se.com/"><img src="https://nicolaspayen1978.github.io/web_perso/images/SE_logo.png" alt="Schneider Electric" target="_blank" style="width: 15px; height: 15px; vertical-align: middle; margin-right: 5px;">Schneider-Electric</a></h3></div>
+
+                    <div class="job-location">Hong-Kong</div>
+                    <div class="job-position"><h5>APAC & Middle East Channel Director</h5></div>    
+
+                    <div class="job-timelocation">Mission</div>
+                    <div class="job-mission">Led €200M channel business in the building automation sector.</div>    
+
+                    <div class="job-timelocation">Results</div>
+                    <div class="job-results">
+                        <ul>
+                            <li>Expanded partner network, optimizing sales strategies across 10+ countries.</li>
+                            <li>Developed EcoExperts program, enhancing channel engagement and revenue.</li>
+                            <li>Managed Direct: 1 Indirect: 8.</li>
+                        </ul>
+                    </div>    
+        
+                    <div class="job-location">Hong-Kong</div>
+                    <div class="job-position"><h5>Asia Commercial Director</h5></div>    
+        
+                    <div class="job-timelocation">Mission</div>
+                    <div class="job-mission">Managed €25M P&L for EcoBuilding division, delivering profitable growth.</div>    
+        
+                    <div class="job-timelocation">Results</div>
+                    <div class="job-results">
+                        <ul>
+                            <li>Achieved turnaround from -15% to +15% YoY growth.</li>
+                            <li>Developed partnerships with regional telecom & utility providers.</li>
+                            <li>Managed Direct: 5, Indirect: 80 (Asia).</li>
+                        </ul>
+                    </div>    
+        
+                    <div class="job-location">Paris</div>
+                    <div class="job-position"><h5>Global Smart Home Project Director</h5></div>    
+        
+                    <div class="job-timelocation">Mission</div>
+                    <div class="job-mission">Co-led internal start-up for IoT residential energy mgmt solutions with €50M investment.</div>    
+                    <div class="job-timelocation">Results</div>
+                    <div class="job-results">
+                        <ul>
+                            <li>Launched energy management platform Wiser, expanding IoT offerings.</li>
+                            <li>Developed demand-side management API for utilities.</li>
+                            <li>Hired/managed Direct: 6, Indirect: 17.</li>
+                        </ul>
+                    </div>    
+        
+                    <div class="job-location">Sweden</div>
+                    <div class="job-position"><h5>Product Manager</h5></div>    
+        
+                    <div class="job-timelocation">Mission</div>
+                    <div class="job-mission">Oversaw business strategy and portfolio for cable management systems.</div>    
+        
+                    <div class="job-timelocation">Results</div>
+                    <div class="job-results">
+                        <ul>
+                            <li>Developed business case for €30M market expansion.</li>
+                            <li>Led product adaptation for Nordic countries.</li>
+                        </ul>
+                    </div>    
+        
+                    <div class="job-location">Grenoble</div>
+                    <div class="job-position"><h5>Deputy Marketing Manager</h5></div>    
+        
+                    <div class="job-timelocation">Mission</div>
+                    <div class="job-mission">Analyze/Benchmark MES market and offering for various verticals.</div>    
+        
+                    <div class="job-timelocation">Results</div>
+                    <div class="job-results">
+                        <ul>
+                            <li>Developed strategic recommendations.</li>
+                            <li>Propose Make/Buy scenarios with M&A targets.</li>
+                        </ul>
+                    </div>    
+        
+                </div>
+                <div class="job">
+                    <div class="job-time">2002 - 2004 (2y)</div>
+                    <div class="job-company"><h3><a href="https://www.orange-business.com"><img src="https://nicolaspayen1978.github.io/web_perso/images/Orange_logo.png" alt="Orange Business" target="_blank" align="left" style="width: 15px; height: 15px; vertical-align: middle; margin-right: 5px;">Orange Business Services (Silicomp AQL)</a></h3></div>
+
+                    <div class="job-location">Lyon</div>
+                    <div class="job-position"><h5>Technical Project Manager </h5></div>    
+
+                    <div class="job-timelocation">Mission</div>
+                    <div class="job-mission">Deliver custom built software solutions for various industrial customers.</div>    
+
+                    <div class="job-timelocation">Results</div>
+                    <div class="job-results">
+                        <ul>
+                             <li>Concurrency SW projects management & team management</li>
+                            <li>Presales activities, Project organisation and execution, Comissioning and roll-out of the solution.</li>
+                            <li>Customers: Companie National Du Rhône (EDF), Alstom, Renault Trucks, CEA, BIC, Schneider-Electric</li>
+                        </ul>
+                    </div>    
+                </div>
         </section>
-        <!-- Education -->
         <section class="section">
             <h2>Education</h2>
             <div class="education-item">
-                <h4>EMlyon business school  <a href="https://em-lyon.com/en">[.]</a>| 2004 - 2005 :</h4>
-                <h3>MBA, Technology & Innovation Management</h3>
+                <h3>Harvard Business School (2014) - Executive Certificate</h3>
+                <p>Creating Shared Value by Michael Porter</p>
             </div>
             <div class="education-item">
-                <h4>Grenoble INP Esisar  <a href="https://esisar.grenoble-inp.fr/en">[.]</a>| 1997 - 2002 :</h4>
-                <h3>Engineer’s Degree in Industrial Engineering</h3>
+                <h3>EMLyon Business School (2004 - 2005) - Masters</h3>
+                <p>Technology & Innovation Management</p>
+            </div>
+            <div class="education-item">
+                <h3>INPG ESISAR (1997 - 2002) - Engineer’s Degree</h3>
+                <p>Industrial Engineering</p>
             </div>
         </section>
-        <!-- Languages -->
         <section class="section">
             <h2>Languages</h2>
-            <p class="languages">French (native), English (fluent), Dutch (B-level)</p>
+            <p>French (native), English (fluent), Dutch (B1-level)</p>
         </section>
     </div>
 </body>
