@@ -20,276 +20,407 @@
     <meta name="twitter:description" content="Discover the professional journey of Nicolas Payen, from leadership roles at Schneider Electric to entrepreneurship in sustainable investing and climate tech.">
     <meta name="twitter:image" content="https://nicolaspayen1978.github.io/web_perso/images/Resumes.jpg">
     <title>Resume - Nicolas Payen</title>
-        <style>
-            body {
-                font-family: Arial, sans-serif;
-                font-size: 0.75em;
-                margin: 0px;
-                padding: 10px;
-                color: #333;
-                line-height: 1.2;
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 0.75em;
+            margin: 0px;
+            padding: 10px;
+            color: #333;
+            line-height: 1.2;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+        h1, h2, h3, h4, h5 {
+            margin-bottom: 0px;
+            margin-top: 0px;
+            line-height: 1.2;
+        }
+        h1, h2, h3 {
+            color: #004080;
+        }
+
+        h5 {
+            font-size: 1.0em;
+        }
+
+        h3 em {
+            font-size: 0.9em;
+        }
+        .section {
+            margin-bottom: 5px;
+        }
+        h2 {
+           border-bottom: 2px solid #004080;
+           padding-bottom: 2px;
+           display: block;
+           margin-bottom: 7px;
+        }
+
+        .contact {
+            display:flex;
+            flex-basis: auto;
+        }
+
+        .contact-detail {
+            display:flex;
+            min-width: 25%;
+            text-align: center;
+        }
+
+        .job {
+            margin-bottom: 10px;
+            display: grid;
+            grid-template-columns: 150px auto;
+            column-gap: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .section ul li{
+            padding:2px;
+        }
+
+        .job-time {
+            width: 150px;
+            float: left;
+            color: #004080;
+            font-size: 1.1em;
+            font-weight: bold;
+            padding-bottom: 3px;
+            padding-top: 3px;
+        }
+
+        .job-location {
+            width: 150px;
+            float: left;
+            font-weight: bold;
+            padding-bottom: 3px;
+            padding-top: 3px;
+        }
+
+        .job-timelocation {
+            width: 150px;
+            float: left;
+            color: #808080;
+            padding-bottom: 3px;
+            padding-top: 3px;
+        }
+
+        .job-mission .job-results {
+            padding-bottom: 3px;
+            padding-top: 3px;
+        }
+
+        .job-results ul li{
+            padding: 0px;
+            padding-bottom: 2px;
+            padding-top: 2px;
+        }
+
+        .education-item {
+            margin-bottom: 5px;
+        }
+        a {
+            color: #004080;
+            text-decoration: none;
+        }
+        a:visited {
+            color: #004080;
+        }
+
+        @media screen and (max-width: 600px) {
+            header {
+                flex-direction: column;
+                align-items: flex-start;
+                text-align: left;
             }
-            .container {
-                max-width: 800px;
-                margin: auto;
+
+            header > div:last-child {
+                align-self: flex-end;
+                margin-top: 10px;
             }
-            h1 + p, h1 + div, 
-            h2 + p, h2 + div, 
-            h3 + p, h3 + div,
-            h4 + p, h4 + div {
-                margin-top: 0px;
+
+            .contact {
+                font-size: 0.85em;
             }
-            h1, h2, h3, h4 {
-                margin-bottom: 0px;
-                margin-top: 0px;
-                line-height: 1.2;
-            }
-            h1 {
-                margin-bottom: 5px;
-            }
-            h1, h2, h3 {
-                color: #004080;
-            }
-            .section {
-                margin-bottom: 5px;
-            }
-            .contact, .skills, .languages {
-                font-size: 1em;
-            }
-            ul {
-                list-style-type: disc;
-                margin: 5px 0 15px 20px;
-                margin-bottom: 2px;
-            }
-            h2 {
-               border-bottom: 2px solid #004080; /* Line color and thickness */
-               padding-bottom: 2px; /* Space between text and line */
-               display: block;
-               margin-bottom: 7px;
-            }
-            .job {
-                margin-bottom: 10px;
-            }
-            .education-item {
-                margin-bottom: 5px;
-            }
-            .job h3, .education-item h3 {
-                font-size: 1em;
-                font-weight: bold;
-                margin: 0px 0;
-                line-height: 1.2;
-                margin-bottom: 0px;
-            }
-            .education-item h3, .education-item h4 {
-                display: inline-block;
-                white-space: nowrap;
-            }
-            .job h4, .education-item h4 {
-                font-size: 1em;
-                font-weight: bold;
-                color: #555;
-                line-height: 1.2;
-                margin-bottom: 5px;
-            }
-            a {
-                color: #004080;
-                text-decoration: none;
-            }
-            a:visited {
-                color: #004080;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="container">
-            <!-- Header -->
-            <header>
-                <h1>Nicolas Payen</h1>
-                 <a href="https://www.linkedin.com/in/nicolaspayen" target="_blank" style="color: #004080; text-decoration: underline; font-weight: bold; align-contents:left;">
-                    <img src="https://cdn-icons-png.flaticon.com/16/174/174857.png" alt="LinkedIn" style="width: 14px; height: 14px; vertical-align: middle; margin-right: 5px;">
-                    linkedin.com/in/nicolaspayen
-                </a> | 
-                <a href="tel:+31621303848" style="color: #004080; text-decoration: underline; font-weight: bold; align-contents:center;">
-                    +31 6 21 30 38 48
-                </a> | 
-                <a href="mailto:nicolas_payen@icloud.com" style="color: #004080; text-decoration: underline; font-weight: bold;align-contents:center;">
-                    nicolas_payen@icloud.com
-                </a> |
-                <a href="https://web-perso.vercel.app">🌐 my website</a>
-                <p class="contact" style="align-contents:left;"><img src="https://cdn-icons-png.flaticon.com/16/684/684908.png" alt="Location" style="width: 14px; height: 14px; vertical-align: middle; margin-right: 5px;">
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; border-bottom: 2px solid #004080; padding-bottom: 10px; margin-bottom: 15px;">
+            <div style="flex: 1 1 60%;">
+                <h1 style="font-size: 2em; margin-bottom: 5px;">Nicolas Payen</h1>
+                <div class="contact" style="display: flex; flex-direction: column; gap: 5px; font-size: 0.9em;">
+                    <a href="https://www.linkedin.com/in/nicolaspayen" target="_blank" style="color: #004080; font-weight: bold;">
+                        <img src="https://cdn-icons-png.flaticon.com/16/174/174857.png" alt="LinkedIn" style="width: 14px; height: 14px; vertical-align: middle; margin-right: 5px;">
+                        linkedin.com/in/nicolaspayen
+                    </a>
+                    <a href="tel:+31621303848">📞 +31 6 21 30 38 48</a>
+                    <a href="mailto:nicolas_payen@icloud.com">✉️ nicolas_payen@icloud.com</a>
+                    <a href="https://web-perso.vercel.app">🌐 My Website</a>
+                    <p class="contact" style="align-contents:left;"><img src="https://cdn-icons-png.flaticon.com/16/684/684908.png" alt="Location" style="width: 14px; height: 14px; vertical-align: middle; margin-right: 5px;">
                 Händellaan 15, 1411 JG Naarden, The Netherlands
-            </header>
-        <!-- Summary -->
+                    </p>
+                </div>
+            </div>
+            <div style="flex: 0 0 100px; text-align: right;">
+                <img src="./images/NicolasPayen.jpg" alt="Nicolas Payen" style="width: 100px; border-radius: 8px; box-shadow: 0 0 5px rgba(0,0,0,0.1);">
+            </div>
+        </header>
         <section class="section">
             <h2>Summary</h2>
             <p>Dynamic international business leader with 20 years of experience driving strategy, innovation, and growth in the Energy and Digital Technology sectors. Expertise in business strategy, digital transformation, and sustainable finance, with a proven track record in investment, product development, and scaling businesses across Europe, Asia, and the Middle East. Seeking leadership roles in Business Management, Product Management, Strategy, Corporate VC, Innovation, or Digital/Business Transformation. Interested in joining an impact company driving the energy transition.
             Past experiences in managing team of 80+ people, and business activities up to €200Mln.</p>
         </section>
+        <section class="section">
+            <h2>Skills</h2>
+            <ul>
+                <li><strong>General Management & Business Growth</strong> – Full P&L responsibility, proven track record in scaling teams and driving growth across Europe and Asia.</li>
+                <li><strong>Commercial Strategy & Partnerships</strong> – Expertise in go-to-market execution, key account management, and regional expansion.</li>
+                <li><strong>Digital Transformation & IoT</strong> – Led the development of digital platforms and industrial IoT solutions.</li>
+                <li><strong>Entrepreneurship & Venture Building</strong> – Built startups and innovation studios, raised funds, designed and launched products.</li>
+                <li><strong>Sustainable Finance & Investments</strong> – Structured impact investment funds, analyzed and supported renewable energy project financing.</li>
+            </ul>
+        </section>
 
-        <!-- Work Experience -->
+        <section class="section">
+            <h2>Significant Experience</h2>
+            <ul>
+                <li><strong>General Management & Growth</strong> – Positive Energy Ltd (CEO), Schneider Electric (Asia Commercial Director)</li>
+                <li><strong>Digital Transformation & Innovation</strong> – MANN+HUMMEL (IoT Lab Director), Schneider Electric (Smart Home Project Director)</li>
+                <li><strong>Entrepreneurship & Impact</strong> – Future Economy Studio (Founder), GreenEU Fund (Co-initiator)</li>
+                <li><strong>Partnerships & Business Development</strong> – Schneider Electric (Channel Director APAC/MENA), Silicomp / Orange Business Services (Project Manager)</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>Sectors of Expertise</h2>
+            <ul>
+                <li>Energy & renewable energy</li>
+                <li>Electrical engineering & automation systems</li>
+                <li>Digital technology & industrial IoT</li>
+                <li>Sustainable real estate & smart building</li>
+                <li>Infrastructure finance / climate / ESG</li>
+                <li>Industry (automotive, filtration, manufacturing)</li>
+                <li>Innovation consulting and product development</li>
+            </ul>
+        </section>
         <section class="section">
             <h2>Work Experience</h2>
             <div class="job">
-                <h4>Positive Energy Ltd. <a href="https://www.icloud.com/iclouddrive/023BV-tdxngtSPc7SsH5UQf2w#PositiveEnergyLtd">[.]</a></h4>
-                <h3>Founder & CEO | Lead for GreenEU Fund Incubation | Mar 2017 - Oct 2023, Singapore & Amsterdam <a href="https://www.icloud.com/iclouddrive/0adPB2nLclmOoeIdL0kWwuM1Q#GreenEU_Fund">[.]</a></h3>
-                Positive Energy Ltd is a Climate Fintech; it operates a B2B digital platform to facilitate financing renewable energy projects (M&A, equity & debt financing, buy-side, and sell-side supporting tools). Positive Energy Ltd helps project developers prepare the investment materials (deal room, financial analysis, proposed transaction terms, risks analysis) for their projects, match them with professional investors, and help them negotiate an investment (equity or debt) in their project company. 
-                <ul>
-                    <li>Recruited key employees (including co-founder), 9 FTEs at peak capacity, structured company governance (shareholders and founders agreements), led product design and engineering, led sales and marketing activities.</li> 
-                    <li>Created marketing campaign & acquired customers, resulting in the registration of 750 companies, 2000+ users from 36 countries in less than 12 months, talking leadership position in Asia-Pacific</li> 
-                    <li> Drove commercial activities to generate revenues, $1.2B in potential project financing deals, our clients signed 6 term sheets, secure 100k USD revenues under 12 months after launch.</li>           
-                    <li>Directed investors outreach and fundraising initiatives for the company and our clients, securing critical milestones (angels & pre-seed), maintained steady growth during market fluctuations.</li>
-                    <li>Lead the creation of the software marketplace from prototype to commercial product (10 man years of work).</li>
-                    <li>Designed standard financial models and data room templates for various clean energy project types, enabling seamless project evaluation (value/risk/maturity); our clients signed 6 Term Sheets for renewable energy project financing in diverse markets.</li>
-                    <li>Managed cash flows closely to overcome the pandemic and adapted costs accordingly without public support.</li>
-                    <li>Signed JV/partnership with European asset managers, for the co-development of a +€175M impact investment fund, named GreenEU, to support the energy transition in Europe while supporting the growth of SMEs. The fund was also designed to enhance the business model of the software platform and leverage its capabilities for improved operational efficiency.</li>
-                    <li>Defined fund's investment thesis and strategy, co-wrote key investment documents for the fund, created financial models for the fund, co-designed ESG assessment for the fund, ran initial roadshow for the fund.</li>
-                    <li>Won significant international recognitions and pitch competitions (World Bank, Schneider Electric, Siemens, Atos).</li>
-                </ul>
+                <div class="job-time">2017 - 2023 (5.5y)</div>
+                <div class="job-company"><h3><a href="https://positiveenergylimited.wpcomstaging.com"><img src="https://nicolaspayen1978.github.io/web_perso/images/PEL_square.png" alt="Positive Energy Ltd" target="_blank" align="left" style="width: 15px; height: 15px; vertical-align: middle; margin-right: 5px;">Positive Energy Ltd</a></h3></div>
+
+                <div class="job-location">Singapore - Amsterdam</div>
+                <div class="job-position"><h5>Founder & CEO</h5></div>    
+
+                <div class="job-timelocation">Mission</div>
+                <div class="job-mission">Build a Climate Fintech, operate B2B digital platform for renewable energy financing.</div>
+
+                <div class="job-timelocation">Results</div>
+                <div class="job-results">
+                    <ul>
+                        <li>Recruited key employees (including co-founder), 9 FTEs at peak capacity, structured company governance (shareholders and founders agreements), led product design and engineering, led sales and marketing activities.</li> 
+                        <li>Created marketing campaign & acquired customers,resulting in the registration of 750 companies, 2000+ users from 36 countries in less than 12 months, talking leadership position in Asia-Pacific</li> 
+                        <li> Drove commercial activities to generate revenues, $1.2B in potential project financing deals, our clients signed 6 term sheets, secure 100k USD revenues under 12 months after launch.</li>           
+                        <li>Directed investors outreach and fundraising initiatives for the company and our clients, securing critical milestones (angels & pre-seed), maintained steady growth during market fluctuations.</li>
+                        <li>Lead the creation of the software marketplace from prototype to commercial product (10 man years of work).</li>
+                        <li>Signed JV/partnership with European asset managers, for the co-development of a +€175M impact investment fund, named GreenEU, to support the energy transition in Europe while supporting the growth of SMEs. The fund was also designed to enhance the business model of the software platform and leverage its capabilities for improved operational efficiency.</li>
+                        <li>Won significant international recognitions and pitch competitions (World Bank, Schneider Electric, Siemens, Atos).</li>
+                    </ul>
+                </div>
             </div>
             <div class="job">
-                <h4>Future Economy Studio Pte. Ltd.</h4>
-                <h3>Founder & Managing Director | Mar 2017 - Oct 2023, Singapore & Amsterdam</h3>
-                The Future Economy Studio is a Start-up studio. It creates innovative concepts leveraging digital technologies to reinvent our business. It provides operational support and guidance to entrepreneurs and corporations to help them succeed in the early stages of their digital venture. The studio also creates new ventures from scratch and scales them. The studio worked on four alternative ventures during the first five months:
-                <ul>
-                    <li>Out-of-home advertising solution based on interactive video projection, with a team of 4 people.</li>
-                    <li>Remote monitoring and asset optimization solution for the Cement industry (vibration sensors based), with a team of 2 people.</li>
-                    <li>B2B e-commerce platform and outsourcing solution for indirect purchase – negotiated minority equity investment in Blu-Buying Singapore and co-developed further the company, with a team of 3 people.</li>
-                    <li>Creation of Positive Energy Ltd a B2B Marketplace for renewable energy projects financing</li>
-                </ul>
-                <br>At the end of 2019, the Future Economy Studio reached a valuation of 4.5 Mln USD.
-                <br>
+                <div class="job-time">2017 - 2023 (5.5y)</div>
+                <div class="job-company"><h3><a href="https://www.futureeconomystudio.com/"><img src="https://nicolaspayen1978.github.io/web_perso/images/FES.png" alt="Future Economy Studio" target="_blank" align="left" style="width: 25px; height: 15px; vertical-align: middle; margin-right: 5px;">Future Economy Studio</a></h3></div>
+
+                <div class="job-location">Singapore</div>
+                <div class="job-position"><h5>Founder & Managing Director</h5></div> 
+
+                <div class="job-timelocation">Mission</div>
+                <div class="job-mission">Launched a startup studio to create and scale digital ventures.</div>
+
+                <div class="job-timelocation">Results</div>
+                <div class="job-results">
+                    <ul>
+                        <li>Developed and tested four ventures across digital and industrial tech.</li>
+                        <li>Out-of-home advertising solution based on interactive video projection, with a team of 4 people.</li>
+                        <li>Remote monitoring and asset optimization solution for the Cement industry (vibration sensors based), with a team of 2 people.</li>
+                        <li>B2B e-commerce platform and outsourcing solution for indirect purchase – negotiated minority equity investment in Blu-Buying Singapore and co-developed further the company, with a team of 3 people.</li>
+                        <li>Creation of Positive Energy Ltd a B2B Marketplace for renewable energy projects financing</li>
+                        <li>Grew portfolio valuation to $4.5M by end of 2019.</li>
+                    </ul>
+                </div>
             </div>
             <div class="job">
-                <h4>MANN+HUMMEL <a href="https://www.mann-hummel.com">[.]</a></h4>
-                <h3>Global IoT / Industry 4.0 Lab Director | Mar 2016 - Mar 2017, Singapore</h3>
-                <ul>
-                    <li>Acted as a CTO for all digital and electronics solutions of the group.</li>
-                    <li>Led IoT initiatives and portfolio for the group: from global ideation program to the commercial launches of new products and services targeting 5 Mln$ additional revenues.</li>
-                    <li>Ran venture design process: business model canvas definition, design thinking, service design, proof of value, offer positioning, design-to-cost, and go-to-market strategies. 
-                    <li>Launched and managed the IoT Innovation Lab in Singapore, recruiting a top-notch multidisciplinary team of 5 people to focus on Industry 4.0 and digital transformation initiatives across filtration and heavy equipment industries.</li>
-                    <li>Developed IoT-enabled smart devices and monitoring solutions, including an air quality monitoring system and predictive maintenance for industrial filtration, utilizing platforms like AWS IM, AWS Lambda, React, and Docker.</li>
-                    <li>Partnered with Corporate Venture teams to evaluate and integrate start-up technologies, created synergies with MANN+HUMMEL’s existing product lines.</li>
-                    <li>Supported global IoT initiatives, advising manufacturing units on Industry 4.0 applications and enhancing operational efficiency through digital transformation practices.</li>
-                    <li>Reported to group's Chief Technology Officer, managed a team of 5 people in Singapore.</li>
-                </ul>
+                <div class="job-time">2016 - 2017 (1y)</div>
+                <div class="job-company"><h3><a href="https://www.mann-hummel.com/"><img src="https://nicolaspayen1978.github.io/web_perso/images/MannHummel.png" alt="MANN+HHUMMEL" target="_blank" align="left" style="width: 15px; height: 15px; vertical-align: middle; margin-right: 5px;">MANN+HUMMEL</a></h3></div>
+
+                <div class="job-location">Singapore</div>
+                <div class="job-position"><h5>Global IoT / Industry 4.0 Lab Director</h5></div>    
+
+                <div class="job-timelocation">Mission</div>
+                <div class="job-mission">Created and Directed global IoT strategy and innovation lab for the group.<br>Kick-off and deploy digital transformation initiatives for the group.</div>
+
+                <div class="job-timelocation">Results</div>
+                <div class="job-results">
+                    <ul>
+                         <li>Acted as a CTO for all digital and electronics solutions of the group.</li>
+                         <li>Led IoT initiatives and portfolio for the group: from global ideation program to the commercial launches of new products and services targeting 5 Mln$ additional revenues.</li>
+                         <li>Launched and managed the IoT Innovation Lab in Singapore, recruiting a top-notch multidisciplinary team of 5 people to focus on Industry 4.0 and digital transformation initiatives across filtration and heavy equipment industries.</li>
+                         <li>Developed IoT-enabled smart devices and monitoring solutions, including an air quality monitoring system and predictive maintenance for industrial filtration, utilizing platforms like AWS IM, AWS Lambda, React, and Docker.</li>
+                         <li>Reported to group's Chief Technology Officer, managed a team of 5 people in Singapore.</li>
+                    </ul>
+                </div>
             </div>
-            <div class="job">
-                <h4>Schneider Electric <a href="https://www.se.com/">[.]</a></h4>
-                <h3>APAC & Middle East Channel Director | Apr 2013 - Oct 2015, Hong Kong</h3>
-                <ul>
-                    <li>Directed channel strategies in APAC and the Middle East, expanding Schneider Electric’s reach and driving growth for a €1,4Bln Building Automation & Power System business unit. This channel accounted for €200Mln.</li>
-                    <li>Implemented and deploy the newly created EcoExperts program, optimizing channel partner performance and introducing incentive structures that increased engagement across all system integrators in the region.</li>
-                    <li>Orchestrated the first multi-specialty event for regional partners, attracting 100+ companies and fostering collaborations that resulted in increased channel efficiency.</li>
-                    <li>Developed and launched channel marketing/sales support initiatives, improving sales cycle times (30%) and partner satisfaction.</li>
-                    <li>Reported to Business Unit's Channel VP, managed directly 1 person in India, manged indirectly a team of 8 channel managers accross APAC-MENA.</li>
-                </ul>
-            </div>
-            <div class="job">
-                <h3>ASIA Commercial Director | Apr 2013 - Oct 2015, Hong Kong</h3>
-                <ul>
-                    <li>Managed P&L for Asia’s EcoBuilding division (€25M), driving profitability with gross margins of over 50%, and achieving a turnaround from -15% to +15% growth YoY.</li>
-                    <li>Oversaw sales and operational marketing for Smart Home, Light and Room Control categories, leading a team across Singapore, China, and Hong Kong to align product strategies with regional needs.</li>
-                    <li>Led strategic partnerships, collaborating with regional telecom and utility providers to introduce smart home solutions, including HVAC control, to major Asian markets.</li>
-                    <li>Championed business model simulations and venture design workshops to assess partnership viability and refine go-to-market strategies.</li>
-                    <li>Reported to APAC Commercial VP for the line of business, managed direclty a team of 5 people in Hong-Kong, China, Singapore and indirectly of 80 sales people in Asia.</li>
-                </ul>
-            </div>
-            <div class="job">
-                <h3>Global Smart Home Project Director | Apr 2010 - Oct 2013, Hong Kong</h3>
-                <ul>
-                    <li>Part of the leadership team for one of the 5 internal start-ups named Connected Home. Co-led the creation of new IoT residential solutions for US, EU, and AUS markets. Tolal investment of €50Mln.</li>
-                    <li>Directed the launch of smart home solution focused on energy management named Wiser, managing large cross-functional team and €5M annual budget. Leading complete products/services development cycle from prototyping to industrialisation to commercial launch.</li>
-                    <li>Developed brand newgen residential technology platform: Zigbee Energy Box, machine-2-machine (M2M), Cloud, web and mobile applications.</li>
-                    <li>Released the first Demand Side Management API for utilities and contributed to France’s Greenlys Smart Grid demonstrator.</li>
-                    <li>Led cross-functional teams on customer journey to ensure a cohesive user experience.</li>
-                    <li>Ensured deliverables meet quality and cost targets of the group.</li>
-                    <li>Reported to line of business' VP. member of the mgmt committee, directly managed a team of 6 people in France, Denmark, and India, indirectly managed a team of 17 people.</li>
-                </ul>
-            </div>
-            <div class="job">
-                <h3>Product Development Manager | Apr 2009 - Apr 2010, Paris, France</h3>
-                <ul>
-                    <li>Oversaw the technical development of innovative connected residential energy management system, managing a cross-functional team spanning five countries.</li>
-                    <li>Led feasibility studies and market research for a B2C offering that included analytics, GPRS/xDSL connectivity, and an Open Innovation model involving multiple external partners.</li>
-                    <li>Introduced agile workflows to improve development cycles, ensuring alignment with market trends and product readiness for new B2C channels.</li>
-                    <li>Reported to Program Manager of the Business Unit, directly managed a team of 1 people in Paris,  indirectly managed a team of 12 people in Denmark, China, Mexico, and India.</li>
-                </ul>
-            </div>
-            <div class="job">
-                <h3>Product Manager | Apr 2006 - Mar 2008, Nyköping, Sweden</h3>
-                <ul>
-                    <li>Managed the offer and business strategy for Europe’s mini-trunking business (Cable Management Systems).</li>
-                    <li>Supported the Nordic countries in business development (pricing, channel and product marketing, product adaptations, active portfolio management).</li>
-                    <li>Co-defined the requirement for renewal of the “core” range for the Nordic countries (€30Mln business, €6,5Mln investment).</li>
-                    <li>Co-defined strategy plan for our primary market (Sweden, €30Mln revenues)</li>
-                    <li>Lead the financial analysis and Business Plan creation for the LOB's new strategic program.</li>
-                    <li>Report to the Product Line Manager of the Line of Business</li> 
-                </ul>
-            </div>
-            <div class="job">
-                <h3>Deputy Manager Marketing | Jul 2005 - Jan 2006, Grenoble, France</h3>
-                <ul>
-                    <li>Conducted a market analysis to benchmark Schneider’s Manufacturing Execution System for various verticals such as F&B, Pharma, Water, and Mining.</li>
-                    <li>Developed strategic recommendations that influenced the company’s approach in high-growth industries, enhancing product positioning and segmentation.</li>
-                    <li>Implemented upstream marketing initiatives to support product entry strategies, improving brand recognition and engagement in target markets.</li>
-                    <li>Report to the Strategic Marketing Manager of the Line of Business.</li>
-                </ul>
-            </div>
-            <div class="job">
-                <h4>Silicomp AQL / Orange Business Services  <a href="https://www.orange-business.com/en">[.]</a></h4>
-                <h3>Technical Project Manager | Jul 2002 - July 2004, Lyon, France</h3>
-                <ul>
-                    <li>Concurrency projects management, team management (5 SW engineers), supplier management, and software architecture definition. Ensure quality, TTM and costs in comparison with contract.</li>
-                    <li>Presales activities : requirements collection & tendering, Project organisation and execution, Comissioning and roll-out of the solution. </li>
-                    <li>Customers: Companie National Du Rhône (EDF), Alstom, Renault Trucks, CEA, BIC, Schneider-Electric</li>
-                    <li>Report to the Lyon's agency Delivery Manager, indrectly managed a team of 3 people.</li>
-                </ul>
-            </div>
+             <div class="job">
+
+                    <div class="job-time">2006 - 2015 (10y)</div>
+                    <div class="job-company"><h3><a href="https://www.se.com/"><img src="https://nicolaspayen1978.github.io/web_perso/images/SE_logo.png" alt="Schneider Electric" target="_blank" style="width: 15px; height: 15px; vertical-align: middle; margin-right: 5px;">Schneider-Electric</a></h3></div>
+
+                    <div class="job-location">Hong-Kong</div>
+                    <div class="job-position"><h5>APAC & Middle East Channel Director</h5></div>    
+
+                    <div class="job-timelocation">Mission</div>
+                    <div class="job-mission">Led €200M channel business in the building automation sector.</div>    
+
+                    <div class="job-timelocation">Results</div>
+                    <div class="job-results">
+                        <ul>
+                             <li>Directed channel strategies in APAC and the Middle East, expanding Schneider Electric’s reach and driving growth for a €1,4Bln Building Automation & Power System business unit. This channel accounted for €200Mln.</li>
+                            <li>Implemented and deploy the newly created EcoExperts program, optimizing channel partner performance and introducing incentive structures that increased engagement across all system integrators in the region.</li>
+                            <li>Developed and launched channel marketing and sales support initiatives tailored to market needs, improving sales cycle times (30%) and partner satisfaction.</li>
+                            <li>Reported to Business Unit's Channel VP, managed directly 1 person in India, manged indirectly a team of 8 accross APAC-MENA.</li>
+                        </ul>
+                    </div>    
+        
+                    <div class="job-location">Hong-Kong</div>
+                    <div class="job-position"><h5>Asia Commercial Director</h5></div>    
+        
+                    <div class="job-timelocation">Mission</div>
+                    <div class="job-mission">Managed €25M P&L for EcoBuilding division, delivering profitable growth.</div>    
+        
+                    <div class="job-timelocation">Results</div>
+                    <div class="job-results">
+                        <ul>
+                            <li>Managed P&L for Asia’s EcoBuilding division (€25M), driving profitability with gross margins of over 50%, and achieving a turnaround from -15% to +15% growth YoY.</li>
+                            <li>Oversaw sales and operational marketing for Smart Home, Light and Room Control categories, leading a team across Singapore, China, and Hong Kong to align product strategies with regional needs.</li>
+                            <li>Led strategic partnerships, collaborating with regional telecom and utility providers to introduce smart home solutions, including HVAC control, to major Asian markets.</li>
+                            <li>Reported to APAC Commercial VP for the line of business, managed direclty a team of 5 people in Hong-Kong, China, Singapore and indirectly of 80 sales people in Asia.</li>
+                        </ul>
+                    </div>    
+        
+                    <div class="job-location">Paris</div>
+                    <div class="job-position"><h5>Global Smart Home Project Director</h5></div>    
+        
+                    <div class="job-timelocation">Mission</div>
+                    <div class="job-mission">Co-led internal start-up for IoT residential energy mgmt solutions with €50M investment.</div>    
+                    <div class="job-timelocation">Results</div>
+                    <div class="job-results">
+                        <ul>
+                             <li>Part of the leadership team for one of the 5 internal start-ups named Connected Home. Co-led the creation of new IoT residential solutions for US, EU, and AUS markets. Tolal investment of €50Mln.</li>
+                            <li>Directed the launch of smart home solution focused on energy management named Wiser, managing large cross-functional team and €5M annual budget. Leading complete products/services development cycle from prototyping to industrialisation to commercial launch.</li>
+                            <li>Developed newgen residential technology platform: Zigbee Energy Box, machine-2-machine (M2M), Cloud, web and mobile applications.</li>
+                            <li>Released the first Demand Side Management API for utilities and contributed to France’s Greenlys Smart Grid demonstrator.</li>
+                            <li>Reported to line of business' VP. member of the mgmt committee, directly managed a team of 6 people in France, Denmark, and India, indirectly managed a team of 17 people.</li>
+                        </ul>
+                    </div>    
+        
+                    <div class="job-location">Sweden</div>
+                    <div class="job-position"><h5>Product Manager</h5></div>    
+        
+                    <div class="job-timelocation">Mission</div>
+                    <div class="job-mission">Oversaw business strategy and portfolio for cable management systems.</div>    
+        
+                    <div class="job-timelocation">Results</div>
+                    <div class="job-results">
+                        <ul>
+                             <li>Managed the offer and business strategy for Europe’s mini-trunking business (Cable Management Systems).Supported the Nordic countries in business development (pricing, channel and product marketing, product adaptations, active portfolio management).</li>
+                            <li>Co-defined the requirement for renewal of the “core” range for the Nordic countries (€30Mln business, €6,5Mln investment). Co-defined strategy plan for our primary market (Sweden, €30Mln revenues)
+                            <li>Lead the financial analysis and Business Plan creation for the LOB's new strategic program.</li>
+                            <li>Report to the Product Line Manager of the Line of Business</li> 
+                        </ul>
+                    </div>    
+        
+                    <div class="job-location">Grenoble</div>
+                    <div class="job-position"><h5>Deputy Marketing Manager</h5></div>    
+        
+                    <div class="job-timelocation">Mission</div>
+                    <div class="job-mission">Analyze/Benchmark MES market and offering for various verticals.</div>    
+        
+                    <div class="job-timelocation">Results</div>
+                    <div class="job-results">
+                        <ul>
+                            <li>Led market analysis for Manufacturing Execution Systems for various verticals (F&B, Pharma, Water, and Mining).</li>
+                            <li>Developed strategic recommendations to refine segmentations and product positioning.</li>
+                            <li>Implemented upstream marketing initiatives to support product entry strategies.</li>
+                            <li>Report to the Strategic Marketing Manager of the Line of Business.</li>
+                        </ul>
+                    </div>    
+        
+                </div>
+                <div class="job">
+                    <div class="job-time">2002 - 2004 (2y)</div>
+                    <div class="job-company"><h3><a href="https://www.orange-business.com"><img src="https://nicolaspayen1978.github.io/web_perso/images/Orange_logo.png" alt="Orange Business" target="_blank" align="left" style="width: 15px; height: 15px; vertical-align: middle; margin-right: 5px;">Orange Business Services (Silicomp AQL)</a></h3></div>
+
+                    <div class="job-location">Lyon</div>
+                    <div class="job-position"><h5>Technical Project Manager </h5></div>    
+
+                    <div class="job-timelocation">Mission</div>
+                    <div class="job-mission">Deliver custom built software solutions for various industrial customers.</div>    
+
+                    <div class="job-timelocation">Results</div>
+                    <div class="job-results">
+                        <ul>
+                             <li>Concurrency projects management, team management (5 SW engineers), supplier management, and software architecture definition.</li>
+                            <li>Presales activities : requirements collection & tendering, Project organisation and execution, Comissioning and roll-out of the solution.</li>
+                            <li>Customers: Companie National Du Rhône (EDF), Alstom, Renault Trucks, CEA, BIC, Schneider-Electric</li>
+                            <li>Report to the Lyon's agency Delivery Manager, indrectly managed a team of 3 people.</li>
+                        </ul>
+                    </div>    
+                </div>
         </section>
         <!-- Education -->
-         <section class="section">
+        <section class="section">
             <h2>Education</h2>
             <div class="education-item">
-                <h4>Harvard Business School  <a href="https://www.exed.hbs.edu">[.]</a>| 2014 :</h4>
-                <h3>Executive certificate, Creating Shared Value by Michael Porter.</h3>
+                <h3>Harvard Business School (2014) - Executive Certificate</h3>
+                <p>Creating Shared Value by Michael Porter</p>
             </div>
             <div class="education-item">
-                <h4>EMlyon business school  <a href="https://em-lyon.com/en">[.]</a>| 2004 - 2005 :</h4>
-                <h3>MBA, Technology & Innovation Management</h3>
+                <h3>EMLyon Business School (2004 - 2005) - MBA</h3>
+                <p>Technology & Innovation Management</p>
             </div>
             <div class="education-item">
-                <h4>Grenoble INP Esisar  <a href="https://esisar.grenoble-inp.fr/en">[.]</a>| 1997 - 2002 :</h4>
-                <h3>Engineer’s Degree in Industrial Engineering</h3>
+                <h3>INPG ESISAR (1997 - 2002) - Engineer’s Degree</h3>
+                <p>Industrial Engineering</p>
             </div>
         </section>
         <!-- Online program -->
         <section class="section">
             <h2>Online executive education</h2>
             <div class="education-item">
-                <h4>University Bocconi  <a href="https://www.sdabocconi.it/en/mba-executive-mba">[.]</a>| 2021 :</h4>
-                <h3>Private Equity & Venture Capital</h3>
+                <h3>University Bocconi  <a href="https://www.sdabocconi.it/en/mba-executive-mba">[.]</a>| 2021 :</h3>
+                <p>Private Equity & Venture Capital</p>
             </div>
             <div class="education-item">
-                <h4>University Bocconi <a href="https://www.sdabocconi.it/en/mba-executive-mba">[.]</a>| 2021 :</h4>
-                <h3>Financing & Investing in infrastructure</h3>
+                <h3>University Bocconi <a href="https://www.sdabocconi.it/en/mba-executive-mba">[.]</a>| 2021 :</h3>
+                <p>Financing & Investing in infrastructure</p>
             </div>
             <div class="education-item">
-                <h4>INSEAD  <a href="https://www.insead.edu/executive-education">[.]</a>| 2017 :</h4>
-                <h3>Strategy in the Age of Digital Disruption</h3>
+                <h3>INSEAD  <a href="https://www.insead.edu/executive-education">[.]</a>| 2017 :</h3>
+                <p>Strategy in the Age of Digital Disruption</p>
             </div>
         </section>
-        <!-- Skills -->
-        <section class="section">
-            <h2>Skills</h2>
-            <p class="skills">Expertise in: General Management | Sales & Business Development | Strategic & Operational Marketing | Product Management & Engineering | Go-To-Market Strategy | Digital Transformation | Financial Analysis | Investments | M&A
-            <br>Coding skills: Python, Java, SQL, DevOps, Agile, IoT, MicroServices, Data Analysis, Javascript, HTML.</p>
-        </section>
-        <!-- Languages -->
+        <!-- Language -->
         <section class="section">
             <h2>Languages</h2>
-            <p class="languages">French (native), English (fluent), Dutch (B1-level)</p>
+            <p>French (native), English (fluent), Dutch (B1-level)</p>
         </section>
-        <!-- Hobbies -->
+         <!-- Hobbies -->
         <section class="section">
             <h2>Hobbies</h2>
             <p class="skills">
